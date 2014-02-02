@@ -9,8 +9,30 @@
     tools:context=".RadarActivity" >
 
     <TextView
+        android:id="@+id/textTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="@string/title_text" />
+
+    <Button
+        android:id="@+id/map_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textTitle"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="54dp"
+        android:text="@string/map"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/map_button"
+        android:text="@string/location_text" />
 
 </RelativeLayout>

@@ -3,6 +3,8 @@
 
     <string name="app_name">MyRadar-Mi Radar Personal</string>
     <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="title_text">¡RADAR INICIALIZADO!</string>
+    <string name="location_text">---Diario de Ruta---</string>
+    <string name="map">Mostrar\nen el\nMAPA</string>
 
 </resources>
